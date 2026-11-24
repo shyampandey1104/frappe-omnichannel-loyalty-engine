@@ -1,30 +1,104 @@
 {
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Frappe Omnichannel Loyalty Engine Workspace\",\"level\":4}}]",
+ "charts": [
+  {
+   "chart_name": "Frappe Omnichannel Loyalty Engine Volume Trend",
+   "label": "Frappe Omnichannel Loyalty Engine Volume Trend"
+  }
+ ],
+ "content": "[{\"type\": \"header\", \"data\": {\"text\": \"Frappe Omnichannel Loyalty Engine Workspace\", \"level\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Frappe Omnichannel Loyalty Engine Operations\"}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Audit & Compliance\"}}]",
  "creation": "2026-04-01 10:00:00.000000",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
- "icon": "octicon octicon-book",
+ "icon": "octicon octicon-package",
  "idx": 0,
  "is_hidden": 0,
  "label": "Frappe Omnichannel Loyalty Engine",
- "links": [],
+ "links": [
+  {
+   "label": "Operational Documents",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Frappe Omnichannel Loyalty Engine Entry",
+   "label": "Frappe Omnichannel Loyalty Engine Entry",
+   "link_to": "Frappe Omnichannel Loyalty Engine Entry",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "label": "Audit & Reports",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Frappe Omnichannel Loyalty Engine Audit Log",
+   "label": "Frappe Omnichannel Loyalty Engine Audit Log",
+   "link_to": "Frappe Omnichannel Loyalty Engine Audit Log",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "is_query_report": 1,
+   "label": "Frappe Omnichannel Loyalty Engine Summary",
+   "link_to": "Frappe Omnichannel Loyalty Engine Summary",
+   "link_type": "Report",
+   "type": "Link"
+  },
+  {
+   "label": "Configuration",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Frappe Omnichannel Loyalty Engine Settings",
+   "label": "Frappe Omnichannel Loyalty Engine Settings",
+   "link_to": "Frappe Omnichannel Loyalty Engine Settings",
+   "link_type": "DocType",
+   "type": "Link"
+  }
+ ],
  "modified": "2026-04-01 10:00:00.000000",
  "modified_by": "Administrator",
  "module": "Loyalty_Core",
  "name": "Frappe Omnichannel Loyalty Engine",
  "owner": "Administrator",
  "public": 1,
- "quick_lists": [],
+ "quick_lists": [
+  {
+   "document_type": "Frappe Omnichannel Loyalty Engine Entry",
+   "label": "Recent Frappe Omnichannel Loyalty Engine Entries"
+  }
+ ],
  "roles": [
   {
    "role": "System Manager"
+  },
+  {
+   "role": "Accounts User"
   }
  ],
  "sequence_id": 1,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "All Frappe Omnichannel Loyalty Engine Entrys",
+   "link_to": "Frappe Omnichannel Loyalty Engine Entry",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "label": "System Settings",
+   "link_to": "Frappe Omnichannel Loyalty Engine Settings",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "label": "Compliance Digest",
+   "link_to": "Frappe Omnichannel Loyalty Engine Summary",
+   "type": "Report"
+  }
+ ],
  "title": "Frappe Omnichannel Loyalty Engine"
 }
